@@ -102,8 +102,8 @@ padding: 50px;
   .s1box1 h2{text-align: center;font-size: 30px;padding: 0px 25px;margin-top: 5px;}
   .s1box1 p{text-align: center;padding: 0px 20px;font-size: 16px;}
   .btn1{ padding:20px 50px;position: absolute;}
-  .s1box1 img{position: relative;top: 100px;right: 25px;}
-.s1review{position: relative;top: 100px;font-size: 12px;right: 15px;}
+  .s1box1 img{position: relative;top: 100px;right: 15px;}
+.s1review{position: relative;top: 100px;font-size: 12px;right: 5px;}
 .s1box2{margin-top: 100px;}
 }
 
