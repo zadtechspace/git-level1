@@ -39,7 +39,7 @@ body{
 
 /* section1/hero */
 .hero{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     padding: 20px 200px;
     width: 100%;
     background-color: #FFF9F2;
