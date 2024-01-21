@@ -73,6 +73,9 @@ body{
 
 .s1box1 img{
     width: 4%;
+    position: relative;
+    bottom: 40px;
+    left: 150px;
 }
 .s1box2{
 padding: 50px;
@@ -87,19 +90,22 @@ padding: 50px;
 .s1review{
     font-size: 10px;
     color: #6B7280;
+    position: relative;
+    bottom: 40px;
+    left: 150px;
             
 }
 
 /* responsiveness for hero section */
 @media (min-width:320px) and (max-width:990px) {
     body{padding: 0px 5px;}
- .hero{display: flex;flex-direction: column;padding: 5px 5px;}
+ .hero{display: flex;flex-direction: column;padding: 30px 50px;}
    
-  .s1box1 h2{text-align: center;font-size: 30px;padding: 0px 15px;margin-top: 5px;}
+  .s1box1 h2{text-align: center;font-size: 30px;padding: 0px 25px;margin-top: 5px;}
   .s1box1 p{text-align: center;padding: 0px 20px;font-size: 16px;}
   .btn1{margin-left: 100px; padding:10px 30px;}
-  .s1box1 img{position: relative;top: 45px;right: 180px;}
-.s1review{position: relative;left: 180px;top: 10px;font-size: 12px;}
+  .s1box1 img{position: relative;top: 10px;left: 70px;}
+.s1review{position: relative;top: 10px; left: 75px;font-size: 14px;}
 .s1box2{margin-top: 30px;}
 }
 
