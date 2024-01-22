@@ -102,7 +102,7 @@ padding: 50px;
 /* responsiveness for hero section */
 @media (min-width:320px) and (max-width:990px) {
    
- .hero{display: flex;flex-direction: column;justify-content: flex-end;align-items: flex-end;  padding:0px 50px;text-align: center;;}
+ .hero{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;  padding:0px 50px;text-align: center;;}
 
  .s1box1 h2{text-align: center;font-size: 30px;padding: 0px 25px;}
  .s1box1 p{text-align: center;padding: 0px 25px;font-size: 16px;}
