@@ -1,49 +1,64 @@
-body{
+/* body{
     width: 100%;
+} */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    padding: 20px 100px;
+    background-color: white;
+   
 }
 
 .logo{
-    margin-left: 50px;
+    width: 100%;
+  
 }
 
-
-#navbtn{
-    margin-left: 30px;
-    font-size: 16px;
-    font-weight: 600;
-   
+.navcontent{
+    margin-left: 250px;
+    width: 50px;
+    
 }
 
+.navcontent ul{
+    display: flex;
+    gap: 50px;
+}
 
+.navcontent ul li a{
+    font-size: 18px;
+}
 
-@media screen and (min-width:320px) and (max-width:990px){
-    .logo{
-        margin-left: 0px;
-    
-    }
-   
-    #navbtn{
-        margin-left: -300px;
-        margin-top: 10px;
-    
-    }
-
-    .navbtn2{
-        
-        display: none;
-    }
-   
+.navbtn{
+    background-color: #6d1830;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 12px;
 }
 
 
 
 /* section1/hero */
-.hero{
-    margin-top: 80px;
-    padding: 0px 150px;
-    height: 100vh;
+.s1{
     width: 100%;
+    height: auto;
+    padding: 50px 150px;
     background-color: #FFF9F2;
+   
+}
+.hero{
+
+    width: 100%;
+   
     display: flex;
     justify-content:space-between ;
     align-items: center;
@@ -81,13 +96,14 @@ body{
     left: 150px;
 }
 .s1box2{
-padding: 50px;
+/* padding: 50px; */
     width: 100%;
+    text-align: center;
    
 }
 
 .s1box2 img{
-    width: 100%;
+    width: 80%;
 }
 
 .s1review{
@@ -99,16 +115,153 @@ padding: 50px;
             
 }
 
-/* responsiveness for hero section */
-@media (min-width:320px) and (max-width:990px) {
-   
- .hero{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;  padding:0px 50px;text-align: center;;}
+.s2{
+    width: 100%;
+    height: auto;
+    padding: 30px 150px;
+}
 
- .s1box1 h2{text-align: center;font-size: 30px;padding: 0px 25px;}
- .s1box1 p{text-align: center;padding: 0px 25px;font-size: 16px;}
- .btn1{ padding:20px 50px;margin-bottom: 10px;}
+.s2box{
+    width: 100%;
+    text-align: center;
+
+}
+
+.s2box1{
+    width: 100%;
+}
+
+.s2box2{
+    width: 100%;
+}
+
+.s2box2 img{
+    width: 50%;
+}
+
+.s3{
+    width: 100%;
+    height: auto;
+    padding: 50px 150px;
+}
+
+.s3box{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.s3box1{
+    width: 100%;
+  
+}
+
+.s3box1 img{
+    width: 70%;
+}
+
+.s3box2{
+    width: 100%;
+}
+
+.s3box2 h2{
+    font-size: 35px;
+}
+
+.s3box2 h6{
+    font-size: 20px;
+}
+
+
+
+
+/* responsiveness for hero section */
+@media screen and (min-width:320px) and (max-width:500px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        padding: 10px;
+        position: sticky;
+    }
+
+    .navcontent{
+        margin-left: 0px;
+        width: 100px;
+        
+    }
+    
+    .navcontent ul{
+        display: flex;
+        gap: 00px;
+    }
+    
+    .navcontent ul li a{
+        font-size: 4vw;
+    }
+
+    .navbtn{
+        display: none;
+    }
+
+   .s1{
+    padding: 20px;
+   }
+   
+ .hero{display: flex;flex-direction: column;justify-content: flex-start;align-items:center;text-align: center;gap: 30px;}
+
+ .s1box1 h2{text-align: center;font-size: 8vw;padding: 0px 0px;}
+
+ .s1box1 p{text-align: center;padding: 0px 0px;font-size: 4vw;}
+
+ .btn1{ padding:20px 50px;}
+
  .s1box1 img{position: relative;bottom: 0px;left: 0px;width: 7%;}
+
  .s1review{position: relative;bottom: 0px;left: 0px; width: 10px;}
+
+.s2{
+    padding: 20px;
+}
+
+.s2box1 h6{
+    font-size: 4vw;
+}
+
+.s2box2 img{
+    width: 100%;
+}
+
+.s3{
+    padding: 20px;
+}
+
+.s3box{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.s3box1 img{
+    width: 100%;
+    margin-left: -20px;
+}
+
+.s3box2 h2{
+    font-size: 7vw;
+}
+
+.s3box2 h6{
+    font-size:4vw;
+}
+
+.s3box2 p{
+    font-size:4vw;
+}
 
 }
 
