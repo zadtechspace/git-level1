@@ -128,6 +128,10 @@ body{
     text-align: center;
 }
 
+.hr{
+    padding: 0px 100px;
+}
+
 .s3 div h3{
     font-size: 30px;
     color: #6d1830;

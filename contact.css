@@ -1,7 +1,6 @@
 body{
     width: 100%;
-    background-color: #fff9f2;
-}
+    background-color: #fff9f2;}
 
 .navbar{
     padding: 20px 100px;
@@ -38,12 +37,10 @@ body{
     font-size: 12px;
 }
 
-
-
 #section{
     width: 100%;
     height: auto;
-    padding: 50px 100px;
+    padding:  100px;
 }
 
 #box{
@@ -69,7 +66,7 @@ body{
 }
 
 .s1box{
-    gap: 700px;
+    gap: 500px;
 }
 
 .s1box1 h3{
@@ -80,71 +77,97 @@ body{
     margin-top: 10px;
     font-size: 16px;
     color: white;
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
 }
 
 .s1box2 img{
-    width: 70%;
-}
-
-.s2box{
-    gap: 100px;
-}
-
-.s2box1 h3{
-    font-size: 35px;
-}
-
-.s2box1 p{
-    font-size: 18px;
-    width: 90%;
-}
-
-.s2box2{
-    text-align: center;
-}
-
-.s2box2 img{
-    width: 70%;
-    
-}
-
-
-.s3box{
-    
-    background-image: url(img/Rectangle\ 55.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.s3box1{ 
-    text-align: center;
-}
-
-.s3box1 img{
     width: 50%;
 }
 
-
-
-.s3box2 h3{
-    font-size: 35px;
-    width: 100%;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.s2{
+    padding: 0px !important;
+    background-color: white;
 }
 
-.s3box2 p{
-    margin-top: 20px;
-    width: 60%;
-    font-size: 18px;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.s2box2{
+    padding: 0px 70px;
+}
+
+#formdiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+   
+}
+
+#formdiv div{
+    width: 100%;
+}
+
+#formdiv input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #ecf2f2;
+    border-radius: 7px;
+    height: 7vh;
+
+}
+
+#s2textarea{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#s2textarea input{
+    width: 100%;
+    height: 20vh;
+    padding-bottom: 100px;
+    border: 2px solid #ecf2f2;
+    border-radius: 7px;
+}
+#s2btn{
+        background-color: #6d1830;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 30px;
+        color: white;
+        font-size: 14px;
+
+}
+
+.s3 div h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.s3box{
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.s3box div{
+    border: 3px solid #f7f1ea;
+    border-radius: 5px;
+    text-align: center;
+    padding:  20px;
+}
+
+.s3box div h5{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.s3box div p{
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 0px 50px;
+}
+
+.hr{
+    padding: 0px 100px;
 }
 
 .s4{
-    padding: 50px 300px !important;
+    padding: 50px 400px !important;
 }
 
 .s4 div h3{
@@ -168,7 +191,6 @@ body{
 .accordion-body{
     background-color: #fff9f2;
 }
-
 
 .s5{
     padding: 30px 0px !important;
@@ -214,81 +236,45 @@ body{
     font-weight: 500;
 }
 
-.s6 div h5{
-    text-align: center;
-    font-size: 30px;
-}
-
-.s6boxes{
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 50px;
-}
-
-#s6box{
-    width: 100%;
-    border: 3px solid #eceae6;
-    padding: 15px;
-}
-
-#s6author{
-    display: flex;
-    gap: 10px;
-}
-
-#s6author img{
-    width: 20%;
-   
-}
-
-footer{
-    background-color: white;
-    height: auto;
-    width: 100%;
-    
-}
-
-.s7{
+.s6{
    
     background-color: #711f36;
 }
 
 
-.s7box1{
+.s6box1{
     width: 100%;
 }
 
-.s7box1 h6{
+.s6box1 h6{
     color: white;
     font-size: 20px;
 }
 
-.s7box1 p{
+.s6box1 p{
     color: white;
     font-size: 16px;
 }
 
-.s7box2{
+.s6box2{
     width: 100%;
     display: flex;
     gap: 20px;
 }
 
-.s7box2 input{
+.s6box2 input{
     width: 100%;
     padding: 0px 10px;
 }
 
-#s7btn {
+#s6btn {
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
     background-color: white;
 }
 
-#s7btn a{
+#s6btn a{
     text-decoration: none;
     font-size: 14px;
     color: #711f36;;
@@ -297,45 +283,33 @@ footer{
     /* padding: 0px 20px; */
 }
 
-
-
-
-.s8list{
+.s7list{
     display: flex;
     gap: 30px;
     margin-top: 20px;
 }
 
-.s8list a{
+.s7list a{
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
 
-.s9{
+.s8{
     margin-top: 50px;
   
 }
-.s9box{
+.s8box{
     border-top: 1px solid grey;
     padding-top: 20px;
 }
 
 
-.s9box2 a{
+.s8box2 a{
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:963px) {
     .navbar{
@@ -370,8 +344,7 @@ footer{
     gap: 30px;
    }
 
-
-  .s1{
+   .s1{
     padding: 30px 20px !important;
   }
 
@@ -385,7 +358,7 @@ footer{
 
    .s1box1 p{
     font-size: 4vw;
-    width: 80%;
+    width: 100%;
     text-wrap: wrap;
    }
 
@@ -393,145 +366,123 @@ footer{
     display: none;
    }
 
-   .s2box1 h3{
-    font-size: 8vw;
-   }
-
-   .s2box1 p{
-    font-size: 4vw;
-    width: 100%;
-   }
-
-   .s2box2 img{
-    width: 100%;
-   }
-
-   .s3{
-    padding: 0px !important;
-   }
-
-   .s3box{
-    background-size: cover;
-    flex-direction: column-reverse !important;
-    padding: 30px 10px;
-    text-align: center;
-   }
-
-   .s3box1{
-    text-align: justify;
-   }
-
-   .s3box1 img{
-    width: 100%;
-   }
-
-   .s3box2 h3{
-    font-size: 8vw;
-   }
-
-   .s3box2 p{
-    width: 100%;
-    font-size: 4vw;
-   }
-
-   .s4{
+   .s2{
     padding: 30px 20px !important;
    }
 
-   .s4 div h3{
+   .s2box1{
+    display: none;
+   }
+
+   .s2box2{
+    padding: 0px;
+   }
+
+   #formdiv input, #s2textarea input{
+    font-size: 3vw;
+   }
+
+   .s3 div h3{
     font-size: 6vw;
-    text-align: justify;
-   }
-
-   .s4 div p{
-    font-size: 4vw;
-    text-align: justify;
-    
-   }
-
-   .accordion-item h6{
-    font-size: 4vw;
-   }
-
-.s5box{
-      
-    flex-direction: column-reverse !important;
-   }
-
-   .s5box1 img{
-    width: 100%;
-   }
-   .s5box2{
-    padding: 30px 20px;
-   }
-
-   .s5box2 h5{
     text-align: center;
-    width: 100%;
+    margin-top: 50px;
+}
+
+   .s3box div h5{
+    margin-top: 10px;
     font-size: 8vw;
-   }
+    }
 
-   .s5box2 p{
-    text-align: center;
-    width: 100%;
-    font-size: 4vw;
-    padding: 0px 30px;
-   }
+    .s3box div p{
+        margin-top: 10px;
+        font-size: 4vw;
+        padding: 0px 20px;
+    }
 
-   .s5btn{
-    width: 100%;
-    text-align: center;
-   }
+    .s4{
+        padding: 30px 20px !important;
+       }
+    
+       .s4 div h3{
+        font-size: 6vw;
+        text-align: justify;
+       }
+    
+       .s4 div p{
+        font-size: 4vw;
+        text-align: justify;
+        
+       }
+    
+       .accordion-item h6{
+        font-size: 4vw;
+       }
 
-   .s6 div h5{
-    font-size: 5vw;
-    text-align: justify;
-   }
+       .s5box1 img{
+        width: 100%;
+       }
+       .s5box2{
+        padding: 30px 20px;
+       }
+    
+       .s5box2 h5{
+        text-align: center;
+        width: 100%;
+        font-size: 8vw;
+       }
+    
+       .s5box2 p{
+        text-align: center;
+        width: 100%;
+        font-size: 4vw;
+        padding: 0px 30px;
+       }
+    
+       .s5btn{
+        width: 100%;
+        text-align: center;
+       }
 
-   .s6boxes{
-    flex-direction: column;
-    margin-top: 20px;
-   }
+       .s6box1 h6{
+        font-size: 5vw;
+       }
+    
+       .s6box1 p{
+        font-size: 4vw;
+       }
+    
+       .s6box2{
+        flex-direction: column;
+       }
+    
+       .s6box2 input{
+        width: 100%;
+        padding: 5px 10px;
+       }
+    
+       #s6btn{
+        width: 50%;
+       }
+    
+       .s7box{
+        align-items: normal !important;
+       }
+    
+       .s8box{
+        align-items: normal !important;
+        gap: 10px;
+    }
+    
+    .s8box1 img{
+        width: 30%;
+    }
+    
+    .s8box2{
+        display: flex;
+        gap: 30px;
+    }
+    
 
-   .s7box1 h6{
-    font-size: 5vw;
-   }
-
-   .s7box1 p{
-    font-size: 4vw;
-   }
-
-   .s7box2{
-    flex-direction: column;
-   }
-
-   .s7box2 input{
-    width: 100%;
-    padding: 5px 10px;
-   }
-
-   #s7btn{
-    width: 50%;
-   }
-
-   .s8box{
-    align-items: normal !important;
-   }
-
-   .s9box{
-    align-items: normal !important;
-    gap: 10px;
-}
-
-.s9box1 img{
-    width: 30%;
-}
-
-.s9box2{
-    display: flex;
-    gap: 30px;
-}
-
-
-
+   
+ 
 }
